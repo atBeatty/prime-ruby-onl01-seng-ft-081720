@@ -1,18 +1,18 @@
 # Add  code here!
 def prime?(int)
-  return false if int <= 0
-  return true if int == 2
+  if int == 2 || int == 3
+    true
+  elsif int % 2 == 0
+    false
+  end
+
   counter = 2
-
   while counter < int
-
+    counter += 1
     if int % counter == 0
       false
-      break
-    else
-      true
     end
-
-    counter += 1
   end
+  
+  true
 end
