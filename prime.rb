@@ -1,14 +1,15 @@
 # Add  code here!
 def prime?(int)
+  return true if int == 2
   counter = 2
 
   while counter < int
 
     if int % counter == 0
-      return false
+      false
       break
     else
-      return true
+      true
     end
 
     counter += 1
