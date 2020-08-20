@@ -2,7 +2,7 @@
 def prime?(int)
   if int == 2 || int == 3
     true
-  elsif int % 2 == 0 || int <= 0
+  elsif int % 2 == 0 || int <= 0 || int == 1
     return false
   end
 
