@@ -6,15 +6,14 @@ def prime?(int)
     false
   else
 
-
-  counter = 2
-  while counter < int
-    counter += 1
-    if int % counter == 0
-      false
+    counter = 2
+    while counter < int
+      counter += 1
+      if int % counter == 0
+        false
+      end
     end
   end
-end
 
   true
 end
