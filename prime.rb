@@ -4,7 +4,11 @@ def prime?(int)
 
   while counter < int
     if int % counter == 0
-      false
+      return false
+      break
+    else
+      return true
+
     end
     counter += 1
   end
