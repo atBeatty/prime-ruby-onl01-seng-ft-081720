@@ -4,6 +4,8 @@ def prime?(int)
     true
   elsif int % 2 == 0 || int <= 0 || int == 1
     false
+    break
+    
   else
 
     counter = 2
