@@ -5,10 +5,9 @@ def prime?(int)
   end
 
   counter = 2
-  while counter < int
-    counter += 1
+  while counter <= int / 2
     if int % counter == 0
-      false
+      return false
     end
   end
 
