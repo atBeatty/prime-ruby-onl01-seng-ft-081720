@@ -5,7 +5,7 @@ def prime?(int)
   elsif int % 2 == 0 || int <= 0 || int == 1
     false
   else
-    
+
 
   counter = 2
   while counter < int
