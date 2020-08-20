@@ -7,9 +7,5 @@ def prime?(int)
       false
     end
     counter += 1
-
-    if
-
-
-
+  end
 end
