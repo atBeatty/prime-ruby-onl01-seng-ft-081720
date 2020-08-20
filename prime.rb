@@ -1,12 +1,15 @@
 # Add  code here!
 def prime?(int)
-int.times do
-  if int % 2 == 0
-    false
-    break
-  else
-    true
-  end
-end
+  counter = 2
+
+  while counter < int
+    if int % counter == 0
+      false
+    end
+    counter += 1
+
+    if
+
+
 
 end
